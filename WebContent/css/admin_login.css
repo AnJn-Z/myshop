@@ -1,0 +1,173 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #33373a;
+    font-size: 14px;
+}
+::-webkit-scrollbar {
+    display: none; 
+}
+#msg{
+	color:red;
+}
+.body_content{
+    width: 1300px;
+    height: 800px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    background: url("../img/wanhe_back.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.body_content_top{
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+.logo_img{
+    margin-left: 100px;
+    width: 135px;
+    height: 27px;
+}
+.body_content_cen{
+    width: 100%;
+    height: 600px;
+}
+.body_content_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.body_content_btm {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    background: white;
+}
+.body_content_toplft{
+    width: 50%;
+    float: left;
+}
+.body_content_toprgt{
+    width: 50%;
+    float: right;
+}
+.bitbox{
+    float: right;
+    text-align: center;
+    margin-right: 140px;
+}
+.ewm_img{
+    width: 50px;height: 50px;
+}
+.title_txt{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+    color: #333537;
+    border-left: solid 2px #64686b;
+}
+.loginform {
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: 120px;
+    left: 800px;
+    background: white;
+    padding: 30px 30px 0 30px;
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #33373a;
+}
+.username_box{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+.username_box p{
+    margin: 0; padding: 0;
+}
+.lablespan{
+    display: block;
+    float: left;
+    width: 2px;
+    height: 25px;
+    border-right: 1px solid #BBBBBB;
+    position: absolute;
+    left: 40px; top: 11px;
+
+}
+.ipt1 {
+    float: left;
+    width: 80%;
+    padding-left: 50px;
+    height: 45px;
+    border-radius: 5px;
+    border: solid 1px #BBBBBB;
+    outline: none;
+    box-shadow: inset 0 0 0 1000px white!important;
+}
+.btm_p{
+    width: 100%;
+}
+
+.lablespan1 {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 11px;
+    top: 12px;
+    background: url(../img/user_img.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.lablespan2{
+    width: 20px; height: 20px;
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    background: url("../img/poss_img.svg") no-repeat;
+    background-size: 100% 100%;
+}
+p#msg {
+    text-align: center;
+    padding: 0; margin: 0;
+}
+.title12{
+    height: 35px; line-height: 35px;
+}
+.login_btn{
+    width: 100%;
+    height: 45px;
+    background: #4c99ed;
+    color: white;
+    border: none; outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login_btn:hover{
+    background: #55a1f3;
+}
+.btm_txt1{
+    width: 100%; text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #3c3c3c;
+}
+.btm_txt1:hover{
+    text-decoration: underline;
+    color: black;
+}
+.body_content_toplft{
+    display: flex;
+    flex-direction: row;
+}
