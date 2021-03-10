@@ -11,7 +11,7 @@
     <frame src="top.jsp" name="topFrame" scrolling="No" noresize="noresize" id="topFrame"></frame>
     <frameset rows="70px,*" name="rgtFrame" scrolling="Yes" frameborder="no" border="0" framespacing="0">
     	<frame src="top_logo.jsp" name="topFrame1" scrolling="No" noresize="noresize" id="topFrame1"></frame>
-    	<frameset rows="60px,*" scrolling="Yes" frameborder="no" border="0" framespacing="0">
+    	<frameset cols="170px,*" scrolling="Yes" frameborder="no" border="0" framespacing="0">
     		<frame src="left.jsp?id=1" name="left" id="left" border="0" frameborder="no" noresize="noresize" scrolling="yes"/>
         	<frame src="blank.jsp" name="main" id="main" />
     	</frame>
