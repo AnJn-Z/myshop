@@ -10,69 +10,31 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>小米商城后台管理系统V1.0</title>
 		<link rel="stylesheet" type="text/css" href="../css/comm.css" />
-
+		<script src="../js/jquery-3.3.1.min.js"></script>
+		<script src="../js/jquery-1.11.0.js"></script>
 		<style type="text/css">
 			.linear {
 				width: 100%;
-				height: 100px;
-				background-color: #0044C0;
+				height: 70px;
+				background:#3a4267;
 			}
 			
 			.nav {
 				width: 100%;
-				height: 34px;
+				height: auto;
 				list-style: none;
-				background-color: white;
-				border-bottom: solid 1px #0044C0;
 			}
 			
 			.nav li {
-				height: 30px;
-				position: relative;
-				background-color: #0044C0;
-				margin-right: 3px;
-				margin-top: 2px;
-				border-top-left-radius: 0px;
-				border-top-right-radius: 15px;
-				background-image: url(../img/aixin.png);
-				background-repeat: no-repeat;
-				background-position: 1px 6px;
-			}
-			
-			.nav li a {
-				text-decoration: none;
-				padding: 0 20px;
-				line-height: 30px;
-				color: white;
-				display: block;
-			}
+				height: 50px;position: relative;
+				display: flex;align-items: center;
+				position: relative;    font-size: 15px;
+			}			
+			.white_font{color:white;}			
+			.nav_a:hover {border-right: solid 2px #53dca6; background:#465777;}			
+			.nav li a { text-decoration: none; color: #8088ac;  line-height: 50px; text-align: center; width: 100%; height: 100%; display: block; }
+			.selected_menue{background:#4d5667;border-right: solid 2px #53dca6; }
 			#timecontainer{font-size: 15px; margin-bottom:10px;}
-			.timeanduser {
-			display:none;
-			    width: 250px;
-			    text-align: center;
-			    height: auto;     padding: 15px;
-			    position: absolute;
-			    right: 5px;
-			    top: 5px;
-			    border-radius: 5px;
-			    font-size: 12px;
-			    color: #272e38;
-			    background-color: #f3f3f3;
-			    line-height: 22px;
-			}
-			
-			#currentuser{
-				/*background-image: url(img/logout.png);*/
-				background-repeat: no-repeat;
-				background-size:18px auto;
-				background-position:right 5px;
-				padding-right: 30px;
-                position:relative;
-			}
-		    #logout {
-		    
-            }
              #logout  img{
 		        width:20px;
                 height:20px;
@@ -84,63 +46,46 @@
             	    background-color: #dddddd;     border-radius: 5px;
             	    padding: 10px;
             }
+            .top_box{width:100%;height:1000px;background:#3a4267;}
+            .linear img { width: 135px; height: 28px; margin: 5px 32.5px 0 32.5px; }
+            .linear_txt{color:white;    text-align: center;}
+            .left_li{width: 22px; height: 22px;position: absolute; left: 30px; }
+            .left_li1{background:url(../img/left_img1.svg) no-repeat; background-size: 100% 100%;}
+            .left_li2{background:url(../img/left_img2.svg) no-repeat; background-size: 100% 100%;}
+            .left_li3{background:url(../img/left_img3.svg) no-repeat; background-size: 100% 100%;}
+            .left_li4{background:url(../img/left_img4.svg) no-repeat; background-size: 100% 100%;}
+            .left_li5{background:url(../img/left_img5.svg) no-repeat; background-size: 100% 100%;}
+            .left_li6{background:url(../img/left_img6.svg) no-repeat; background-size: 100% 100%;}
+            .left_li7{background:url(../img/left_img7.svg) no-repeat; background-size: 100% 100%;}
+            .left_li8{background:url(../img/left_img8.svg) no-repeat; background-size: 100% 100%;}
 		</style>
 
 	</head>
 
 	<body>
-		
+		<div class="top_box">
 			<div class="linear">
-				<img src="../img/logo_gree.png" style="width:135px;height:100px;" />
+				<img src="../img/gree_white.png" />
+				<div class="linear_txt">后台管理@云端数据</div>
 			</div>
 			<ul class="nav">
-                <li><a href="left.jsp?id=1" target="left">系统设置</a></li>
-                <li><a href="left.jsp?id=2" target="left">信息中心</a></li>
-                <li><a href="left.jsp?id=3" target="left">留言中心</a></li>
-                <li><a href="left.jsp?id=4" target="left">产品中心</a></li>
-                <li><a href="left.jsp?id=5" target="left">订单中心</a></li>
-                <li><a href="left.jsp?id=6" target="left">会员中心</a></li>
-                <li><a href="../index" target="_blank">预览首页</a></li>
-           		<li> <a href="login.jsp" target="_top" >退出系统</a></li>
+                <li class="selected_menue"><div class="left_li left_li1"></div><a class="nav_a" href="left.jsp?id=1" target="left">系统设置</a></li>
+                <li><div class="left_li left_li2"></div><a class="nav_a" href="left.jsp?id=2" target="left">信息中心</a></li>
+                <li><div class="left_li left_li3"></div><a class="nav_a" href="left.jsp?id=3" target="left">留言中心</a></li>
+                <li><div class="left_li left_li4"></div><a class="nav_a" href="left.jsp?id=4" target="left">产品中心</a></li>
+                <li><div class="left_li left_li5"></div><a class="nav_a" href="left.jsp?id=5" target="left">订单中心</a></li>
+                <li><div class="left_li left_li6"></div><a class="nav_a" href="left.jsp?id=6" target="left">会员中心</a></li>
+                <li><div class="left_li left_li7"></div><a class="nav_a" href="../index" target="_blank">预览首页</a></li>
+           		<li><div class="left_li left_li8"></div><a class="nav_a" href="login.jsp" target="_top" >退出系统</a></li>
 			</ul>
-			<div class="timeanduser">
-				<div class="timeanduser_inner">
-					<p id="timecontainer"></p>
-					<p id="currentuser">当前用户: 【<%= ((Map<String,Object>)session.getAttribute("currentuser")).get("truename")%>】<a href="logout" target="_top" id="logout" title="退出系统"><img src="../img/logout5.png"></a> </p>
-				</div>
-			</div>
-		
+		</div>
 
-		<script type="text/javascript">
-		    t();
-
-		    function t() {
-		        var obj = document.getElementById('timecontainer');
-		        var now = new Date();
-		        var yy = now.getFullYear();
-		        var mm = now.getMonth() + 1;
-		        var dd = now.getDate();
-		        var hhh = now.getHours();
-		        var mmm = now.getMinutes();
-		        var sss = now.getSeconds();
-		        if (mm < 10) mm = "0" + mm;
-		        if (dd < 10) dd = "0" + dd;
-		        if (hhh < 10) hhh = "0" + hhh;
-		        if (mmm < 10) mmm = "0" + mmm;
-		        if (sss < 10) sss = "0" + sss;
-		        var week;
-		        if (now.getDay() == 0) week = "星期日";
-		        if (now.getDay() == 1) week = "星期一";
-		        if (now.getDay() == 2) week = "星期二";
-		        if (now.getDay() == 3) week = "星期三";
-		        if (now.getDay() == 4) week = "星期四";
-		        if (now.getDay() == 5) week = "星期五";
-		        if (now.getDay() == 6) week = "星期六";
-		        var time = yy + "年" + mm + "月" + dd + "日 " + hhh + ":" + mmm + ":" + sss + " " + week;
-		        obj.innerHTML = time;
-		        setTimeout('t()', 1000);
-		    }
-		</script>
+<script type="text/javascript">
+		$(".nav").on("click","li", function () { 
+			$(this).addClass('selected_menue').siblings().removeClass('selected_menue'); 
+			$(parent.frames["topFrame1"].document).find("#get_thisname").text( $(this).text() );
+		});
+</script>
 	</body>
 
 </html>

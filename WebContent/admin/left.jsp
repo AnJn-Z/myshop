@@ -2,13 +2,10 @@
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>
-
-		</title>
-		<link rel="stylesheet" type="text/css" href="../css/comm.css" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/comm.css" />		
 		<style type="text/css">
 			html {
 				width: 100%;
@@ -16,52 +13,51 @@
 			}
 			
 			body {
-				width: calc(100% - 1px);
-				height: 100%;
-				border-right: solid 1px #eee;
-				font-size: 12px;
+				width: 100%;height: 100%;
+				font-size: 14px;
 			}
 			
 			.leftitem {
 				width: 100%;
 				list-style: none;
-				padding-top: 2px;
+				padding-top: 12px;
 			}
 			
 			.leftitem li {
-			float:left;
-				height: 35px;
-				line-height: 35px;
-				border-bottom: solid 1px #eee;
+				float:left; margin-left:20px;
+				width:100px; height: 40px;
+				line-height: 40px; border-radius: 4px;
+				background:white;
+				box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.2);
 			}
 			
 			.leftitem li a {
 				display: block;
-				height: 35px;
-				line-height: 35px;
+				width:100%; height: 100%;				
 				text-decoration: none;
-				text-align: left;
-				background-image: url(../img/arrow-right.png);
-				background-repeat: no-repeat;
-				background-size: 15px 15px;
-				background-position: 10px 10px;
-				padding-left: 30px;
+				text-align: center;border-radius: 4px;				
 			}
-			
+			.selected_menue{background-color: rgba(128,136,172,0.8);}
 			.leftitem li a:hover {
-				background-color: #b8c4cb;
+				background-color: rgba(128,136,172,0.8);
 				color: white;
 			}
 		</style>
 	</head>
 	<body>
+		<div class="left_box">
 		<form name="form1" method="post" action="left.aspx" id="form1">
 			<ul class="leftitem" id="leftitem">
                 <li><a href="login.jsp"  target="_top">退出系统</a></li>
 			</ul>
 		</form>
+		</div>
 		<script src="../js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
+		$(".leftitem").on("click","li", function () { 
+			$(this).addClass('selected_menue').siblings().removeClass('selected_menue'); 
+		});
 		    function getQueryString(name) {
 		        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
 		        var r = window.location.search.substr(1).match(reg);

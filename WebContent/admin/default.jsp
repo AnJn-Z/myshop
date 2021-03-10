@@ -4,16 +4,21 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>小米商城后台管理系统V1.0</title>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<title>高端家电集成后台</title>
 </head>
 <frameset cols="200px,*" frameborder="no" border="0" framespacing="0">
     <frame src="top.jsp" name="topFrame" scrolling="No" noresize="noresize" id="topFrame"></frame>
-    <frameset rows="100,*" scrolling="Yes" frameborder="no" border="0" framespacing="0">
-    	<frame src="top_logo.jsp" name="topFrame" scrolling="No" noresize="noresize" id="topFrame"></frame>
-    	<frameset rows="55,*" scrolling="Yes" frameborder="no" border="0" framespacing="0">
+    <frameset rows="70px,*" name="rgtFrame" scrolling="Yes" frameborder="no" border="0" framespacing="0">
+    	<frame src="top_logo.jsp" name="topFrame1" scrolling="No" noresize="noresize" id="topFrame1"></frame>
+    	<frameset rows="60px,*" scrolling="Yes" frameborder="no" border="0" framespacing="0">
     		<frame src="left.jsp?id=1" name="left" id="left" border="0" frameborder="no" noresize="noresize" scrolling="yes"/>
         	<frame src="blank.jsp" name="main" id="main" />
     	</frame>
     </frameset>
 </frameset>
+
+<script type="text/javascript">
+console.log($(".get_thisname").text());
+</script>
 </html>
