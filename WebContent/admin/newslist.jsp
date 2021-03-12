@@ -8,17 +8,20 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../css/comm.css"/>
+		<style type="text/css">
+			.tb td{border: 1px solid #eeeeee;}	
+		</style>
 	</head>
 <body>
 <%
 List<Map<String, Object>> list = (List<Map<String, Object>>)request.getAttribute("newslist");
 String pagestr = (String)request.getAttribute("pagestr");
 %>
-<p class="path">融智信息系统/信息中心/信息管理</p>
+<p class="path">信息中心/信息管理</p>
 
 <table border="0" cellspacing="0" cellpadding="0" class="tb tblis">
-       <tr>
-       	 <td style="width:50px;">ID</td><td>标题</td><td style="width:80px;">类别</td><td style="width:80px;">作者</td><td style="width:80px;">来源</td><td style="width:120px;">时间</td><td style="width:80px;">操作</td>   
+       <tr class="head_tr">
+       	 <td style="width:50px;">ID</td><td style="width:100px;">标题</td><td style="width:80px;">类别</td><td style="width:80px;">作者</td><td style="width:80px;">来源</td><td style="width:120px;">时间</td><td style="width:80px;">操作</td>   
        </tr>
        <%for (Map<String, Object> m : list) { %>
         <tr>

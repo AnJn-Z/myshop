@@ -17,7 +17,7 @@
 		<form action="proadd" method="post" enctype="multipart/form-data">
 			<p class="path">产品中心/新增商品</p>
 			<table border="0" cellspacing="0" cellpadding="0" class="tb">
-				<tr><td class="lable">名称</td><td><input type="text" name="proname"/></td></tr>
+				<tr><td class="lable">名称</td><td><input placeholder="商品名称" type="text" name="proname"/></td></tr>
 				<tr>
 					<td class="lable">类别</td>
 					<td class="select_td" style="width:100px;">
@@ -25,14 +25,13 @@
 					    	<option value="1">格力</option>
 					    	<option value="2">美的</option>
 					    	<option value="3">海尔</option>
-					    	<option value="4">海信</option>
-					    	<option value="5">长虹</option>
+					    	<option value="4">长虹</option>
 					    </select>
 				   	 </td>					
 					<td class="price2"><div class="price1">价格</div><input class="price_ipt" type="text" name="price"/><div class="price1">元</div></td>
 				</tr>
-				<tr><td class="lable">特色</td><td><input type="text" name="brief"/></td></tr>
-				<tr><td class="lable">产地</td><td><input type="text" name="address"/></td></tr>
+				<tr><td class="lable">特色</td><td><input placeholder="商品特色" type="text" name="brief"/></td></tr>
+				<tr><td class="lable">产地</td><td><input placeholder="商品产地" type="text" name="address"/></td></tr>
 				<tr><td class="lable">图片</td><td><div class="file_iptbox"><input onchange="getPhoto(this)" type="file" class="file_ipt" name="file1"/></div><div class="ge_pic_icon_Infor"><img src="../img/preview_img_.svg"/></div></td></tr>
 				<tr><td class="lable">内容</td><td><script id="editor" type="text/plain" style="width:900px;height:240px;"></script>
 				<input type="hidden" name="descriptions" id="descriptions"/></td></tr>

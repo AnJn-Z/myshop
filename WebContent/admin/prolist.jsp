@@ -9,17 +9,20 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../css/comm.css"/>
+		<style>
+			.tb td{border: 1px solid #eeeeee;}
+		</style>
 	</head>
 <body>
 <%
 List<Map<String, Object>> list = (List<Map<String, Object>>)request.getAttribute("list");
 String pagestr = (String)request.getAttribute("pagestr");
 %>
-<p class="path">产品中心/产品列表</p>
+<p class="path">商品中心/商品列表</p>
 
 <table border="0" cellspacing="0" cellpadding="0" class="tb tblis">
-       <tr>
-       	 <td style="width:50px;">ID</td><td style="width:150px;">产品图片</td><td style="width:100px;">类别</td><td>产品名称</td><td style="width:80px;">价格</td><td style="width:80px;">产地</td><td style="width:80px;">首页推荐</td><td style="width:120px;">首页单品</td><td style="width:80px;">操作</td>   
+       <tr class="head_tr">
+       	 <td style="width:50px;">ID</td><td style="width:150px;">产品图片</td><td style="width:100px;">类别</td><td style="width:80px;">产品名称</td><td style="width:80px;">价格</td><td style="width:80px;">产地</td><td style="width:60px;">首页推荐</td><td style="width:60px;">首页单品</td><td style="width:80px;">操作</td>   
        </tr>
        <%for (Map<String, Object> m : list) { %>
         <tr>

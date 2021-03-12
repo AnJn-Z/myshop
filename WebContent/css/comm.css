@@ -54,7 +54,8 @@ ul{
 h3{
 	line-height: 38px;
 }
-
+.head_tr{font-weight:bold;background:#eeeeee;letter-spacing: 2px;}
+.head_tr td{border-right: 1px solid rgba(255,255,255,0.5)!important;}
 .tb{
 	width:calc(100% - 10px);
 	border-collapse: collapse;
@@ -84,10 +85,6 @@ textarea{
 	margin-top: 10px;
 }
 
-.tblis tr:hover{
-	background-color: #8A2BE2;
-	color: white;
-}
 .price_ipt{width: 100px!important; margin:0 5px;}
 .select_td{width:200px!important;}
 .type_select{ width: 100px; height: 35px;letter-spacing: 2px; border: 1px solid #BBBBBB; border-radius: 4px; outline: none; padding-left: 24px; background: #F2F2F7; color: #888888; }
@@ -103,9 +100,6 @@ textarea{
 .check_btm_box{display: flex;align-items: center;}
 .check_btm_box label{margin-right: 16px;display: flex;align-items: center;}
 .price2{display:flex;align-items: center; left: 190px;position: absolute;}    
-.tblis tr:hover a{	
-	color: white;
-}
 
 .tblis td{
 	text-align: center;

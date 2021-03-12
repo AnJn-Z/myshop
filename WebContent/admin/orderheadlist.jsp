@@ -13,13 +13,16 @@ String pagestr = (String)request.getAttribute("pagestr");
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="../css/comm.css"/>
+<style type="text/css">
+	.tb td{border: 1px solid #eeeeee;}	
+</style>
 </head>
 <body>
-<p class="path">商城后台系统/订单中心/订单列表</p>
+<p class="path">订单中心/订单列表</p>
 
 <table border="0" cellspacing="0" cellpadding="0" class="tb tblis">
-       <tr>
-       	  <td style="width:160px;">订单号</td><td style="width:100px;">姓名</td><td style="width:100px;">电话</td><td>地址</td><td style="width:100px;">金额</td><td style="width:180px;">时间</td><td style="width:120px;">操作</td>   
+       <tr class="head_tr">
+       	  <td style="width:160px;">订单号</td><td style="width:100px;">姓名</td><td style="width:100px;">电话</td><td style="width:160px;">地址</td><td style="width:100px;">金额</td><td style="width:180px;">时间</td><td style="width:120px;">操作</td>   
        </tr>
        <%for (Map<String, Object> m : list) { %>
         <tr>

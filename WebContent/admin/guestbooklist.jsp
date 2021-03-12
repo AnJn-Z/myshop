@@ -13,13 +13,16 @@ String pagestr = (String)request.getAttribute("pagestr");
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="../css/comm.css"/>
+<style type="text/css">
+	.tb td{border: 1px solid #eeeeee;}	
+</style>
 </head>
 <body>
-<p class="path">融智信息系统/留言中心/留言管理</p>
+<p class="path">留言中心/查看留言</p>
 
 <table border="0" cellspacing="0" cellpadding="0" class="tb tblis">
-       <tr>
-       	 <td style="width:50px;">ID</td><td style="width:80px;">用户名</td><td >内容</td><td style="width:120px;">电话</td><td style="width:120px;">时间</td><td style="width:80px;">操作</td>   
+       <tr class="head_tr">
+       	 <td style="width:50px;">ID</td><td style="width:80px;">用户名</td><td style="width:120px;">内容</td><td style="width:120px;">电话</td><td style="width:120px;">时间</td><td style="width:80px;">操作</td>   
        </tr>
        <%for (Map<String, Object> m : list) { %>
         <tr>

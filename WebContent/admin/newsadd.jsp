@@ -27,9 +27,9 @@
 				    </td>
 				</tr>
 				<tr><td class="lable">标题</td><td><input type="text" placeholder="请输入标题" name="tbtitle"/></td></tr>
-				<tr><td class="lable">作者</td><td><input type="text" name="tbauthor"/></td></tr>
-				<tr><td class="lable">来源</td><td><input type="text" name="tbsource"/></td></tr>
-				<tr><td class="lable">时间</td><td><input type="text" name="tbctime"/></td></tr>
+				<tr><td class="lable">作者</td><td><input type="text" placeholder="请输入作者" name="tbauthor"/></td></tr>
+				<tr><td class="lable">来源</td><td><input type="text" placeholder="来源" name="tbsource"/></td></tr>
+				<tr><td class="lable">时间</td><td><input type="text" placeholder="发布时间"  name="tbctime"/></td></tr>
 				<tr><td class="lable">内容</td><td><textarea name="tbcontents"></textarea></td></tr>
 				<tr><td class="lable">&nbsp;</td><td><input type="submit" name="btnsave" value="保存" id="btnsave"/></td></tr>
 			</table>

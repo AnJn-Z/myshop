@@ -29,8 +29,7 @@ Map<String, Object> currentmember=(Map<String,Object>)session.getAttribute("curr
 				<a href="uiprolist?typeid=1">格力</a> |
 				<a href="uiprolist?typeid=2">美的</a> |
 				<a href="uiprolist?typeid=3">海尔</a> |
-				<a href="uiprolist?typeid=4">海信</a> |
-				<a href="uiprolist?typeid=5">长虹</a> 
+				<a href="uiprolist?typeid=4">长虹</a> 
 				<div id="topright">
 				    <%if(currentmember==null) {%>
 					<a href="uilogin.jsp">登录</a>
@@ -49,12 +48,7 @@ Map<String, Object> currentmember=(Map<String,Object>)session.getAttribute("curr
 				<a href="uiprolist?typeid=1">空调</a>
 				<a href="uiprolist?typeid=2">洗衣机</a>
 				<a href="uiprolist?typeid=3">电视</a>
-				<a href="uiprolist?typeid=4">电冰箱</a>
-				<a href="uiprolist?typeid=5">吸尘器</a>
-				<a href="uiprolist?typeid=6">智能硬件</a>
-				<a href="uiprolist?typeid=7">服务</a>
-				<a href="uiprolist?typeid=8">社区</a>
-				<a href="uiprolist?typeid=9">社区</a>
+				<a href="uiprolist?typeid=4">电冰箱</a>				
 			</div>
 			<div id="search">
 				<input type="text" name="tbsearchkey" placeholder="小米node3" />

@@ -72,9 +72,9 @@
                 <li class="selected_menue"><div class="left_li left_li1"></div><a class="nav_a" href="left.jsp?id=1" target="left">系统设置</a></li>
                 <li><div class="left_li left_li2"></div><a class="nav_a" href="left.jsp?id=2" target="left">信息中心</a></li>
                 <li><div class="left_li left_li3"></div><a class="nav_a" href="left.jsp?id=3" target="left">留言中心</a></li>
-                <li><div class="left_li left_li4"></div><a class="nav_a" href="left.jsp?id=4" target="left">产品中心</a></li>
+                <li><div class="left_li left_li4"></div><a class="nav_a" href="left.jsp?id=4" target="left">商品中心</a></li>
                 <li><div class="left_li left_li5"></div><a class="nav_a" href="left.jsp?id=5" target="left">订单中心</a></li>
-                <li><div class="left_li left_li6"></div><a class="nav_a" href="left.jsp?id=6" target="left">会员中心</a></li>
+                <li><div class="left_li left_li6"></div><a class="nav_a" href="left.jsp?id=6" target="left">用户中心</a></li>
                 <li><div class="left_li left_li7"></div><a class="nav_a" href="../index" target="_blank">预览首页</a></li>
            		<li><div class="left_li left_li8"></div><a class="nav_a" href="login.jsp" target="_top" >退出系统</a></li>
 			</ul>

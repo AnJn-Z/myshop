@@ -59,7 +59,7 @@ public class newsadd extends HttpServlet {
 		 Dal.excuteSql(strSql, params);
 		 response.setCharacterEncoding("utf-8");
 		 response.setContentType("text/html;charset=utf-8");
-		 response.getWriter().write("<font color='green'>Ìí¼Ó³É¹¦£¬3ÃëºóÌø×ª</font>");
+		 response.getWriter().write("<font color='green'>ä¿¡æ¯å‘å¸ƒæˆåŠŸï¼Œ3ç§’åè‡ªåŠ¨è·³è½¬ã€‚</font>");
         response.setHeader("Refresh", "5;URL="+request.getContextPath()+"/admin/newsadd.jsp");
 	}
 

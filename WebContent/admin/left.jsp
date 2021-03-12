@@ -72,7 +72,7 @@
 		    	case "3":navstr="<li class=\"ckly_\"><a href=\"guestbooklist\"  target=\"main\">查看留言</a></li>";break;
 		    	case "4":navstr="<li class=\"xzsp_\"><a href=\"proadd.jsp\"  target=\"main\">新增商品</a></li><li class=\"xxlb_\"><a href=\"prolist\"  target=\"main\">商品列表</a></li>";break;
 		    	case "5":navstr="<li class=\"ckdd_\"><a href=\"orderheadlist\"  target=\"main\">查看订单</a></li>";break;
-		    	case "6":navstr="<li class=\"ckvip_\"><a href=\"memberlist\"  target=\"main\">查看会员</a></li>";break;
+		    	case "6":navstr="<li class=\"ckvip_\"><a href=\"memberlist\"  target=\"main\">用户管理</a></li>";break;
 		    }
 		    $("#leftitem").html(navstr);
 		    

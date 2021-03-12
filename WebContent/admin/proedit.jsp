@@ -27,8 +27,7 @@
 					    	<option <%=(objbyid.get("typeid").toString().equals("1"))?"selected=\"selected\"":""%> value="1">格力</option>
 					    	<option <%=(objbyid.get("typeid").toString().equals("2"))?"selected=\"selected\"":""%> value="2">美的</option>
 					    	<option <%=(objbyid.get("typeid").toString().equals("3"))?"selected=\"selected\"":""%> value="3">海尔</option>
-					    	<option <%=(objbyid.get("typeid").toString().equals("4"))?"selected=\"selected\"":""%> value="4">海信</option>
-					    	<option <%=(objbyid.get("typeid").toString().equals("5"))?"selected=\"selected\"":""%> value="5">长虹</option>
+					    	<option <%=(objbyid.get("typeid").toString().equals("4"))?"selected=\"selected\"":""%> value="4">长虹</option>					    	
 					    </select>
 				    </td>
 				    <td class="price2"><div class="price1">价格</div><input class="price_ipt" type="text" name="price" value="<%=objbyid.get("price")%>"/><div class="price1">元</div></td>

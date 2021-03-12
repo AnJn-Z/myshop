@@ -9,17 +9,20 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../css/comm.css"/>
+		<style type="text/css">
+			.tb td{border: 1px solid #eeeeee;}	
+		</style>
 	</head>
 <body>
 <%
 List<Map<String, Object>> list = (List<Map<String, Object>>)request.getAttribute("list");
 String pagestr = (String)request.getAttribute("pagestr");
 %>
-<p class="path">小米商城/会员中心/会员管理</p>
+<p class="path">用户中心/用户管理</p>
 
 <table border="0" cellspacing="0" cellpadding="0" class="tb tblis">
-       <tr>
-       	 <td style="width:50px;">ID</td><td>登录名</td><td style="width:80px;">姓名</td><td style="width:80px;">电话</td><td>地址</td><td style="width:80px;">操作</td>   
+       <tr class="head_tr">
+       	 <td style="width:50px;">ID</td><td style="width:100px;">登录名</td><td style="width:100px;">姓名</td><td style="width:100px;">电话</td><td style="width:150px;">地址</td><td style="width:80px;">操作</td>   
        </tr>
        <%for (Map<String, Object> m : list) { %>
         <tr>
