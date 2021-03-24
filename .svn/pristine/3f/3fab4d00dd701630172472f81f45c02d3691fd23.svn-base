@@ -1,0 +1,12 @@
+#footer { background: #efefef; margin-top: 40px; }
+		#copyright { width: 100%; background: #333333; position: relative;padding-top:15px;height: 200px;}
+		.copyright_img1{position:absolute;left:0; width: 135px;height: 28px;}
+		.btm_1{color: #999;width:100%;text-align:center; }
+		.btm_11{font-size:20px;font-weight:bold;font-family: "幼圆";padding: 10px 0;}
+		.btm_2{display:flex; align-items: center; justify-content: center;}
+		.btm_22{ margin-right: 100px; margin-top: 20px;}
+		.btm_1{margin-top: 10px;}
+		.btm_22 img { position: relative; top: 6px; right:5px; }
+		.beian_img1{width:21px;height:23px;} .beian_img2{width:24px;height:20px;} .beian_img3{width:24px;height:24px;} .beian_img4{width:18px;height:20px;} .beian_img5{width:20px;height:20px;}
+		#bottomright{background:none;font-size:14px;}
+		.bottomright_img{width:100px;height:100px;}

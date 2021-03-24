@@ -1,0 +1,26 @@
+.contact_span{color:#f12020;} .contact_span:hover{text-decoration: underline;cursor: pointer;}
+		.top_txt { font-family: "幼圆"; top: 40px; font-weight: bold; margin: 0 50px 0 20px;}
+		#nav {position: initial;}
+		.main1 { margin-top: 0!important;display: flex; flex-direction: column; align-items: center; width:100%!important;    height: auto!important;}
+		.reg_logo{width:135px;height: 28px; top: 5px; position: relative;}
+		.innerclass1 { width: 100%; padding-left: 18%; }
+		.header11 { width: 100%; box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2);align-items: center; display: flex;  padding-left: 18%;}
+		#logo {left: 120px;position: initial;}
+		.title { display: flex; width: max-content;margin-bottom: 25px;}
+	    .title_span{display: block; width: 75px; line-height: 40px;font-size: 14px; color: #747474;}
+		h3{padding:20px;letter-spacing: 5px;}
+		#btnreg{outline: none;background:#f12020;height: 45px;cursor: pointer;}
+		#btnreg:hover{background:#ec6423;}
+		.contact_ipt{width:15px;height:15px;position: relative; top: 2px; right: 5px;}
+		#contact{padding-top:0;}
+		.rules_box{width:800px;height:600px;    border: 5px solid #e8e8e8; background-color: #FFF; padding: 10px 15px; z-index: 101; position: fixed; top: 10%; left: 30%; zoom: 1;}
+		.rules_box1{width:780px;padding:10px 10px;background: #fafafa;font-size:14px;color: #747474;font-weight: bold;position:relative;}
+		.rules_box2{ width: 100%; overflow: scroll;height:490px; hidden;padding-top: 10px;font-size:12px;font-weight:bold;color: #747474;line-height:24px;}
+		.rules_box_btn{width:250px;height:38px; line-height:38px; margin:15px auto; background: #cc0000; text-align: center; color:white;font-size:14px;color: white;font-weight: bold;}
+		.rules_box_btn:hover{background: #ec6423;cursor: pointer;}
+		::-webkit-scrollbar{ display:none; }
+		.close_rulebox{position:absolute;width:25px;height:20px;right:10px;top:10px;cursor: pointer;}
+		.clicktologin{ color: #f12020;margin-left: 10px;    width: 88px; }
+		.clicktologin a{ color: #f12020;}
+		.clicktologin:hover{ cursor: pointer; }
+		.nav22s { margin-left: 250px;display: flex;}
